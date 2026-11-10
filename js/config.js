@@ -6,8 +6,8 @@ const SITE={
   mapUrl:'https://www.google.com/maps/search/?api=1&query=2101+Garry+Road+Cinnaminson+NJ+08077',
   insta:'https://www.instagram.com/issosnj/',
   email:'info@example.org', youthEmail:'youth@example.org',
-  aarti:[['Mangala Aarti','5:30 AM'],['Shangar Darshan','8:00 AM'],['Rajbhog Aarti','11:30 AM'],['Open Darshan','4:00 PM'],['Sandhya Aarti','7:00 PM'],['Shayan Aarti','8:30 PM']],
-  nav:[['home','Home'],['events','Events'],['gallery','Gallery'],['live-darshan','Live Darshan'],['donations','Donations'],['hall-reservations','Hall Reservations'],['contact-us','Contact Us'],['monthly-magazine','Monthly Magazine'],['youth-activities','Youth Activities']]
+  aarti:[['Shangar Aarti','8:00 AM'],['Open Darshan','4:00 PM'],['Sandhya Aarti','7:00 PM'],['Podhanyu','8:30 PM']],
+  nav:[['home','Home'],['events','Events'],['youth-activities','Youth Activities'],['gallery','Gallery'],['live-darshan','Live Darshan'],['donations','Donations'],['hall-reservations','Hall Reservations'],['contact-us','Contact Us'],['monthly-magazine','Monthly Magazine']]
 };
 
 /* Payments. Keep "demo" until the parent organization approves the site and you have the portal details.
