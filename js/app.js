@@ -3,7 +3,7 @@ const navList=$('#navlist');
 navList.innerHTML=SITE.nav.map(([k,l])=>`<li><a href="#${k}" data-nav="${k}">${l}</a></li>`).join('');
 $('#f-links').innerHTML=SITE.nav.slice(0,5).map(([k,l])=>`<li><a href="#${k}">${l}</a></li>`).join('')+SITE.nav.slice(5).map(([k,l])=>`<li><a href="#${k}">${l}</a></li>`).join('');
 $('#f-addr').innerHTML=SITE.address.join('<br>');
-$('#f-contact').innerHTML=`<li>${SITE.email}</li><li><a href="${SITE.mapUrl}" target="_blank" rel="noopener">Get directions</a></li><li>Mangala Aarti 5:30 AM · Sandhya Aarti 7:00 PM</li><li>Open daily (placeholder hours)</li>`;
+$('#f-contact').innerHTML=`<li>${SITE.email}</li><li><a href="${SITE.mapUrl}" target="_blank" rel="noopener">Get directions</a></li><li>Shangar Aarti 8:00 AM · Sandhya Aarti 7:00 PM</li><li>Open daily (placeholder hours)</li>`;
 
 function current(){
   const h=(location.hash||'#home').slice(1)||'home';
